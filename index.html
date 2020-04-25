@@ -61,7 +61,81 @@
           </ul>
         </div>
       </nav>
-
+      <div id="accordion">
+        <h2 id="about-1">About Bootstrap</h2>
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What is Bootstrap?
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              Bootstrap is a free and open source front end development framework for the creation of websites and web apps. The Bootstrap framework is built on HTML, CSS, and JavaScript (JS) to facilitate the development of responsive, mobile-first sites and apps.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Why Bootstrap?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <p style="text-align: left; margin-left: 20px;">Bootstrap can be used as −</p>
+              <ul>
+                <li>
+                  Mobile first approach − Since Bootstrap 3, the framework consists of Mobile first styles throughout the entire library instead of in separate files.
+                </li>
+                <li>
+                  Browser Support − It is supported by all popular browsers.
+                </li>
+                <li>
+                  Easy to get started − With just the knowledge of HTML and CSS anyone can get started with Bootstrap. Also the Bootstrap official site has a good documentation.
+                </li>
+                <li>
+                  Responsive design − Bootstrap's responsive CSS adjusts to Desktops,Tablets and Mobiles. Provides a clean and uniform solution for building an interface for developers. It contains beautiful and functional built-in components which are easy to customize.
+                </li>
+              </ol> 
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What is Bootstrap Grid System?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases. It includes predefined classes for easy layout options, as well as powerful mixins for generating more semantic layouts.
+            </div>
+          </div>
+        </div>
+        <div class="card" style="padding-bottom: 10px;">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                What is Scrollspy plugin?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+              The Scrollspy (auto updating nav) plugin allows you to target sections of the page based on the scroll position. In its basic implementation, as you scroll, you can add .active classes to the navbar based on the scroll position.
+            </div>
+          </div>
+        </div>
+      </div>
+        
     <footer class="blockquote-footer">
         &copy;Developed By : Nitesh Jhawar
     </footer>
